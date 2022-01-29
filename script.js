@@ -71,7 +71,7 @@ imagens[67] = "<h2>Vergonha</h2> <img src='./img/vergonha.png '>";
 
 let aleatory = Math.floor(Math.random() * imagens.length);
 console.log(aleatory);
-var escreve = document.querySelector('#resultado').innerHTML = imagens[aleatory];
+var write = document.querySelector('#resultado').innerHTML = imagens[aleatory];
 
     const reloadPage = () => {
         document.location.reload(true);
@@ -79,4 +79,4 @@ var escreve = document.querySelector('#resultado').innerHTML = imagens[aleatory]
     }
 
 
-setInterval(reloadPage, 5000);
+setInterval(reloadPage, 10000);
