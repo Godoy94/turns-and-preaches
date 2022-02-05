@@ -52,8 +52,8 @@ a {
 .footer {
     background-color: #00a6ff;
     color: white;
-    height: 80px;
     display: flex;
+    height: 10vh;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
