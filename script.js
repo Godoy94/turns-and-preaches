@@ -73,10 +73,10 @@ let aleatory = Math.floor(Math.random() * imagens.length);
 console.log(aleatory);
 var write = document.querySelector('#resultado').innerHTML = imagens[aleatory];
 
-//     const reloadPage = () => {
-//         document.location.reload(true);
-//         console.log("Mudei a pagina");
-//     }
+    const reloadPage = () => {
+        document.location.reload(true);
+        console.log("Mudei a pagina");
+    }
 
 
-// setInterval(reloadPage, 10000);
+setInterval(reloadPage, 10000);
